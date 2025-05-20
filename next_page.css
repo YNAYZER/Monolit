@@ -4,10 +4,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(90deg, #A69F55 0%, #708238 100%);
   font-family: 'Inter', sans-serif;
 }
 
+.body {
+    background: linear-gradient(90deg, #A69F55 0%, #708238 100%);
+  }
 
 .head {
   width: 100%;
@@ -125,13 +127,13 @@ color: #ccc;
 padding: 1rem;
 font-size: 0.9rem;
 text-align: center;
-margin-top: 3rem;
 background: #A7A29D;
 }
 
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
+    max-height: 170px;
 }
 
 .subscribe-form {

@@ -1,0 +1,109 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tektur:wght@400..900&display=swap');
+
+
+
+.head{
+position: absolute;
+width: 100%;
+height: 6vh;
+left: 0px;
+top: 0vh;
+
+background: #473330;
+}
+
+.logo{
+position: absolute;
+width: 42.91px;
+height: 52px;
+left: 14px;
+top: 0.5vh;
+}
+
+
+.monolith{
+position: absolute;
+left: 8vh;
+top: -2.5vh;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+
+text-shadow: -4px 3px 2.6px rgba(0, 0, 0, 0.5);
+}
+
+li{
+    list-style: none;
+}
+.mp3{
+
+position: absolute;
+width: 50px;
+
+left: 93%;
+top: 0.5vh;
+
+}
+.mp3_pley{
+
+    position: absolute;
+    width: 35px;
+    
+    left: 93.5%;
+    top: 1vh; 
+}
+
+.poly {
+    position:fixed;
+    width: 45px;
+    height: 45px;
+    right: 2vw;
+    top: center;
+  }
+  
+  .poly:hover{
+      transform: scale(1.1);
+      transform:translateY(-10)
+  }
+
+.backgraund_fon{
+    background: linear-gradient(to right,rgba(243, 217, 177, 1),rgba(208, 140, 96, 1));
+    animation: bg 2s ease infinite;
+}
+
+@keyframes bg{
+    0%{
+        background-position: 0% 0%;
+        rotate: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+        rotate: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+        rotate: 0% 0%;
+    }
+}
+
+.menu{
+    /* Rectangle 2 */
+
+position: absolute;
+width: 21.7%;
+height: 1044px;
+left: 0px;
+top: 62px;
+
+background: rgba(217, 217, 217, 0.69);
+
+}

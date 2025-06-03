@@ -150,3 +150,6 @@ border-radius: 8px;
     margin: 0.2rem 0 0.5rem;
     color: #000000;
 }
+a {
+    text-decoration: none;
+  }

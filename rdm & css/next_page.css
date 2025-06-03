@@ -53,7 +53,7 @@ body {
   width: 4vw;
   height: 4vw;
   right: 2vw;
-  top: 1vh;
+
   margin: 0.5%;
 }
 
@@ -89,6 +89,16 @@ body {
     width: 250px; 
     height: 60px;
     flex: 0 0 auto;
+
+    margin: 2vh 9vh;
+
+    width: 331px;
+    height: 103px;
+
+    background: rgba(211, 211, 211, 0.8);
+    border: 1px solid #000000;
+    border-radius: 38px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cards:hover{
@@ -100,6 +110,17 @@ body {
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+    /* 94a3867f4ccbf843f9a872afc5c5ba94 1 */
+
+
+width: 87.45px;
+height: 87.45px;
+
+
+background: url(94a3867f4ccbf843f9a872afc5c5ba94);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 540px;
+
 }
 
 .dish {

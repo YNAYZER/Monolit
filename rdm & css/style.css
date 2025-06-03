@@ -41,6 +41,7 @@ background: rgba(217, 217, 217, 0.69);
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+    margin:5vh 8vh;
 }
 
 .menu-pleu{
@@ -118,6 +119,7 @@ border-radius: 8px;
     padding: 1rem;
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0vh 3vh;
 }
 
 .stalker2:hover, .cyberpank:hover {

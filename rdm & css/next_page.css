@@ -128,6 +128,21 @@ border-radius: 540px;
     margin: 0;
 }
 
+.back{
+  position: absolute;
+  width: 15vw; /* або max-width: 186px */
+  height: 15vw;
+  max-width: 110px;
+  max-height: 110px;
+  left: 0vw;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back:hover{
+  transform: scale(1.05);
+}
+
+
 footer{
 color: #ccc;
 padding: 1rem;

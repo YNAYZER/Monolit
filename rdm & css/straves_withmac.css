@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.backgraund_fon{
+  background: linear-gradient(270deg, #4E342E 0%, rgba(211, 161, 93, 0.87) 100%);
+  background-blend-mode: color-dodge;min-height: 100vh;display: block;
+  animation: bg 20s ease infinite;
+}
+
+@keyframes bg{
+  0%{
+      background-position: 0% 0%;
+      rotate: 0% 0%;
+  }
+  50%{
+      background-position: 100% 100%;
+      rotate: 100% 100%;
+  }
+  100%{
+      background-position: 0% 0%;
+      rotate: 0% 0%;
+  }
+}
+.centered-box {
+    
+    margin: 5vw;
+    width: 80%;
+    height: 77vw;
+    margin-bottom: 120px;
+    
+    background: rgba(211, 211, 211, 0.8);
+    border: 1px solid #000000;
+    border-radius: 38px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto
+    
+    }
+    
+    .title_more{
+    
+     margin: 2vw 5vw;
+     font-size: 20vh;
+    
+    font-family: 'Inter';
+    
+    font-weight: 800;
+    font-size: 5vw;
+    
+    
+    
+    text-align:end;
+    
+    color: #000000;
+    
+    
+    
+    }
+    
+    .more_img{
+        max-width: 35vw;
+        max-height: 30vw;
+        display: block;
+        margin-left: 6vw;
+    
+    }
+    
+    .mini_more{
+    
+        font-size: 32px;
+    
+        margin-top: -22vw;
+        margin-left: 50vw;
+    
+    width: 25vw;
+    height: 28vw;
+    
+    
+    
+    
+    font-weight: 600;
+    font-size: 2.5vw;
+    
+    
+    }
+    
+    .petro{
+        text-align: left;
+        margin-left: 5vw;
+        font-size: 24px;
+        /* Non Stop — це енергетичний напій, створений для активних людей, які цінують драйв і продуктивність. Він містить кофеїн, таурин, вітаміни групи B та забезпечує заряд енергії, що допомагає залишатися зосередженим і бадьорим у будь-який час доби. */
+    
+    
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    
+    width: 28vw;
+    
+    
+    }
+    
+    .ddd_nonstop{
+      max-width: 80vw;
+      max-height: 115vw;
+      display: block;
+      margin-left: 14.3vw;
+       margin-top: -1340px;
+       position: absolute;
+       
+    
+    }
+    
+    @media (max-width: 768px) {
+        .centered-box {
+          width: 85%;
+          height: auto;
+          margin: 5vw auto;
+          padding: 5vw;
+          margin-bottom: 50px;
+        }
+      
+        .title_more {
+          font-size: 8vw;
+          text-align: center;
+          margin: 2vw 0;
+        }
+      
+        .more_img {
+          max-width: 70vw;
+          margin: 0 auto;
+        }
+      
+        .mini_more {
+          font-size: 4vw;
+          margin: 5vw 0;
+          width: 80vw;
+          height: auto;
+          text-align: center;
+        }
+      
+        .petro {
+          font-size: 4vw;
+          margin: 5vw auto;
+          width: 85vw;
+          text-align: center;
+        }
+      }
+      
+    #nonstope {
+        position: fixed;
+        inset: 0;
+    
+    
+        z-index: 110;
+        pointer-events: none;
+    }
